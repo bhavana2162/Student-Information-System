@@ -17,8 +17,8 @@ void addStudent() {
  {
  printf("Enter roll number: ");
 scanf("%d",&students[studentCount].rollNumber);
-printf("Enter name: ")
-scanf("%s",students[studentCount].name);
+printf("Enter name: ");
+scanf("%s",&students[studentCount].name);
 printf("Enter age: ");
 scanf("%d",&students[studentCount].age);
 printf("Enter marks: ");
